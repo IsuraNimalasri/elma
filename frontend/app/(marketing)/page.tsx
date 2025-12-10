@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import MarktingHeader from "./_components/MarktingHeader";
+import MarketingHeader from "./_components/MarketingHeader";
 import { Highlighter } from "@/components/ui/highlighter"
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +16,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="min-h-screen w-full bg-white text-gray-900 selection:bg-yellow-200">
-      <MarktingHeader />
+      <MarketingHeader />
       <Hero />
       <SellingPoints />
       <ParallaxPanel />
