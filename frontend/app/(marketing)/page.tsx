@@ -48,7 +48,7 @@ function Hero() {
       >
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-md">
           11+ <Highlighter action="underline" color="#EAFF00FF">
-          compus 
+          campus 
           </Highlighter> for parents.
           
           <Highlighter action="underline" color="#EAFF00FF">No boring </Highlighter> lessons for kids.
@@ -100,7 +100,7 @@ function SellingPoints() {
     {
       id: "classroom",
       title: "Classroom & LMS",
-      desc: "Assign, grade, and feedback in one place. Keep learning organised and visible.",
+      desc: "Assign, grade, and give feedback in one place. Keep learning organised and visible.",
       img: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1600&auto=format&fit=crop",
     },
     {
