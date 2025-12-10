@@ -1,11 +1,11 @@
-type PerformaceProps = {
+type PerformanceProps = {
   xp?: number;
   streak?: number;
   hearts?: number;
   className?: string;
 };
 
-export default function Performace({ xp = 1200, streak = 5, hearts = 3, className = "" }: PerformaceProps) {
+export default function Performance({ xp = 1200, streak = 5, hearts = 3, className = "" }: PerformanceProps) {
   return (
     <div className={`flex items-center gap-4 ${className}`}>
       <Stat icon="⚡" value={xp} accentClass="text-yellow-600" />
@@ -15,7 +15,7 @@ export default function Performace({ xp = 1200, streak = 5, hearts = 3, classNam
   );
 }
 
-function Stat({ icon,value, accentClass }: { icon: string; value: number | string; accentClass: string }) {
+function Stat({ icon, value, accentClass }: { icon: string; value: number | string; accentClass: string }) {
   return (
     <div className="flex items-center gap-2 text-sm mr-4">
       <span className={`text-lg ${accentClass}`} aria-hidden>

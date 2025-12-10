@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import MarktingHeader from "./_components/MarktingHeader";
+import MarketingHeader from "./_components/MarketingHeader";
 import { Highlighter } from "@/components/ui/highlighter"
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +16,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="min-h-screen w-full bg-white text-gray-900 selection:bg-yellow-200">
-      <MarktingHeader />
+      <MarketingHeader />
       <Hero />
       <SellingPoints />
       <ParallaxPanel />
@@ -48,7 +48,7 @@ function Hero() {
       >
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-md">
           11+ <Highlighter action="underline" color="#EAFF00FF">
-          compus 
+          campus 
           </Highlighter> for parents.
           
           <Highlighter action="underline" color="#EAFF00FF">No boring </Highlighter> lessons for kids.
@@ -100,7 +100,7 @@ function SellingPoints() {
     {
       id: "classroom",
       title: "Classroom & LMS",
-      desc: "Assign, grade, and feedback in one place. Keep learning organised and visible.",
+      desc: "Assign, grade, and give feedback in one place. Keep learning organised and visible.",
       img: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1600&auto=format&fit=crop",
     },
     {

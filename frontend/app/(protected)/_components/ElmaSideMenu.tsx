@@ -30,7 +30,7 @@ export const defaultElmaMenuItems: ElmaMenuItem[] = [
   { display_label: "Home", href: "/home", emoji: "🏠", icon: Home },
   { display_label: "Learn", href: "/learn", emoji: "🎓", icon: GraduationCap },
   { display_label: "Practice", href: "/practice", emoji: "📘", icon: BookOpen },
-  { display_label: "Compus", href: "/campus", emoji: "🏫", icon: FlaskConical },
+  { display_label: "Campus", href: "/campus", emoji: "🏫", icon: FlaskConical },
   { display_label: "Graph", href: "/graph", emoji: "📈", icon: LineChart },
 ];
 

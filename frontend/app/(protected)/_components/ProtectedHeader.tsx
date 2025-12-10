@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Performace from "./Performace";
+import Performance from "./Performance";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { usePathname } from "next/navigation";
 
@@ -10,7 +10,7 @@ export default function ProtectedHeader() {
     "/home": "Home",
     "/learn": "Learn",
     "/practice": "Practice",
-    "/campus": "Compus",
+    "/campus": "Campus",
     "/graph": "Graph",
   };
   const pageName = routeNameMap[pathname] ?? "";
@@ -26,7 +26,7 @@ export default function ProtectedHeader() {
         </div>
 
         <div className="flex items-center gap-6">
-          <Performace />
+          <Performance />
         </div>
       </div>
     </header>
